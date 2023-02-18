@@ -7,6 +7,48 @@ body {
     background-color: #F3F1FF;
 }
 
+/* navigation section */
+.navigation {
+    display: flex;
+    background-color: #562EFF;
+    height: 94px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.logo img {
+    Width: 40px;
+    Height: 50px;
+    padding-top: 26px;
+}
+
+.logo-text {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 145px;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    list-style: none;
+    padding-right: 36px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    padding-right: 155px;
+}
+
 main {
     display: flex;
     flex-direction: column;
